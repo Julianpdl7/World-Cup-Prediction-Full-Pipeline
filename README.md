@@ -58,6 +58,12 @@ The historical dataset contains **7,395 international matches**. The final machi
 
 ## Data Pipeline
 
+Data Sources
+
+Historical international match data was used as the primary match dataset, supplemented with FIFA ranking data. The raw match data was ingested into PostgreSQL staging tables before being standardized, joined with FIFA rankings, and transformed into model-ready features.
+
+The project uses historical matches through June 10, 2026 for model training and validation. 2026 FIFA World Cup group-stage results were subsequently incorporated into post-group-stage team form for tournament simulation.
+
 ### 1. PostgreSQL & SQL
 
 Historical match results and FIFA ranking data were stored in a relational PostgreSQL database.

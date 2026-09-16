@@ -56,13 +56,13 @@ The historical dataset contains **7,395 international matches**. The final machi
 - **Power BI** — interactive dashboarding
 - **Jupyter Notebook / VS Code** — development environment
 
-## Data Pipeline
-
 ## Data Sources
 
 The project uses historical international football match data and FIFA ranking data.
 
 The raw datasets are not included in the repository. Instead, the repository provides the SQL schema, ingestion workflow, data-standardization queries, feature-engineering logic, and model-training dataset construction needed to reproduce the analytical pipeline after obtaining the source data.
+
+## Data Pipeline
 
 ### Data Processing
 

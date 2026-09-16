@@ -62,6 +62,8 @@ The project uses historical international football match data and FIFA ranking d
 
 The raw datasets are not included in the repository. Instead, the repository provides the SQL schema, ingestion workflow, data-standardization queries, feature-engineering logic, and model-training dataset construction needed to reproduce the analytical pipeline after obtaining the source data.
 
+Dataset: https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017
+
 ## Data Pipeline
 
 ### Data Processing

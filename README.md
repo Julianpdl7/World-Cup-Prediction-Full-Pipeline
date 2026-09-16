@@ -58,11 +58,23 @@ The historical dataset contains **7,395 international matches**. The final machi
 
 ## Data Pipeline
 
-Data Sources
+## Data Sources
 
-Historical international match data was used as the primary match dataset, supplemented with FIFA ranking data. The raw match data was ingested into PostgreSQL staging tables before being standardized, joined with FIFA rankings, and transformed into model-ready features.
+The project uses historical international football match data and FIFA ranking data.
 
-The project uses historical matches through June 10, 2026 for model training and validation. 2026 FIFA World Cup group-stage results were subsequently incorporated into post-group-stage team form for tournament simulation.
+The raw datasets are not included in the repository. Instead, the repository provides the SQL schema, ingestion workflow, data-standardization queries, feature-engineering logic, and model-training dataset construction needed to reproduce the analytical pipeline after obtaining the source data.
+
+### Data Processing
+
+Raw match data
+→ PostgreSQL staging tables
+→ Standardized team names
+→ FIFA ranking integration
+→ Historical feature engineering
+→ Chronological model dataset
+→ XGBoost
+→ Monte Carlo simulation
+→ Power BI
 
 ### 1. PostgreSQL & SQL
 

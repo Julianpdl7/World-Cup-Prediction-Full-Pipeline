@@ -157,6 +157,12 @@ The simulation also estimates how frequently teams advanced through each knockou
 
 ![Knockout Stage Advancement](images/knockout_stage_advancement.png)
 
+### Power BI Dashboard
+
+The Power BI dashboard brings together the model predictions, group-stage performance, and Monte Carlo simulation results into an interactive analytical view.
+
+![Power BI Dashboard](images/powerbi_dashboard.png)
+
 ## Power BI
 
 Power BI was used to create a business-facing visualization layer for the project.

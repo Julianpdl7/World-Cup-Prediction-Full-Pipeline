@@ -145,6 +145,18 @@ The project includes visualizations showing:
 - Team performance
 - Changes in model probabilities after the group stage
 
+### Championship Probability
+
+The Monte Carlo simulation estimates the frequency with which each team won the simulated tournament across 10,000 tournament scenarios.
+
+![Championship Probability](images/championship_probability.png)
+
+### Knockout-Stage Advancement
+
+The simulation also estimates how frequently teams advanced through each knockout stage.
+
+![Knockout Stage Advancement](images/knockout_stage_advancement.png)
+
 ## Power BI
 
 Power BI was used to create a business-facing visualization layer for the project.

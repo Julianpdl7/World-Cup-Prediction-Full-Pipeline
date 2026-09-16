@@ -1,3 +1,10 @@
+## Project Evolution
+
+This project expands on an earlier FIFA World Cup prediction project by developing a complete end-to-end analytics pipeline.
+
+The original project focused primarily on machine learning-based World Cup outcome prediction. This version extends that work by incorporating PostgreSQL/SQL data engineering, PySpark processing, chronological feature engineering, post-group-stage model updates, Monte Carlo tournament simulation, and Power BI visualization.
+
+The result is a reproducible pipeline spanning database engineering, data processing, predictive modeling, simulation, and business intelligence.
 # 2026 FIFA World Cup Match Prediction & Tournament Simulation
 
 An end-to-end data science project that uses historical international football data to predict 2026 FIFA World Cup knockout-stage match outcomes and estimate tournament advancement probabilities through Monte Carlo simulation.

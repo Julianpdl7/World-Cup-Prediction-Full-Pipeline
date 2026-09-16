@@ -4,6 +4,26 @@ An end-to-end data science project that uses historical international football d
 
 The project combines **PostgreSQL/SQL, PySpark, Python, XGBoost, and Power BI** into a complete analytics and machine learning pipeline.
 
+## Key Results
+
+| Metric | Result |
+|---|---:|
+| Historical matches analyzed | **7,395** |
+| ML training dataset | **6,692 matches** |
+| Decisive matches used for binary model | **5,130** |
+| XGBoost test accuracy | **80.23%** |
+| XGBoost test log loss | **0.4182** |
+| Monte Carlo simulations | **10,000** |
+| Teams reaching knockout stage | **32** |
+| Unique simulated champions | **29** |
+
+## Repository Contents
+
+- [`world_cup_prediction_model.ipynb`](world_cup_prediction_model.ipynb) — complete Python machine learning and simulation workflow
+- [`sql/`](sql/) — PostgreSQL schema, data ingestion, standardization, feature engineering, and ML dataset construction
+- [`powerbi/`](powerbi/) — Power BI dashboard and supporting datasets
+- [`images/`](images/) — project visualizations
+
 ## Project Overview
 
 The goal of this project was to build a reproducible machine learning workflow that transforms historical international football data into match-level predictions and tournament-level simulations.
